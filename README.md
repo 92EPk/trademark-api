@@ -13,7 +13,7 @@
 
 1. Download the `trademark-app` directory. Click [here](https://github.com/92EPk/trademark-api/archive/refs/heads/master.zip) to download it.
 
-2. Unzip the downloaded file and navigate to the working directory.
+2. Unzip the downloaded file and enter the working directory.
 
 ```bash
 cd trademark-app/
@@ -37,4 +37,4 @@ NEXT_PUBLIC_RAPIDAPI_KEY=YOUR_RAPID_API_KEY
 npm run dev
 ```
 
-You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.
+almost done! now Open [localhost:3000](http://localhost:3000/) to see the app.
