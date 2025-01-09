@@ -50,10 +50,10 @@ export default function Home() {
           <h3 className="text-primary text-center text-xl">
             The trademark keyword {keyword} is{" "}
             {response.count === 0 && (
-              <span className="text-active">available</span>
+              <span className="text-danger">Not available</span>
             )}
             {response.count !== 0 && (
-              <span className="text-danger">available</span>
+              <span className="text-active">available</span>
             )}
           </h3>
           {response.count !== 0 && (
