@@ -53,7 +53,7 @@ export default function Home() {
               <span className="text-active">available</span>
             )}
             {response.count !== 0 && (
-              <span className="text-danger">not available</span>
+              <span className="text-danger">available</span>
             )}
           </h3>
           {response.count !== 0 && (
